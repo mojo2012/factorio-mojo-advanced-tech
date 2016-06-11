@@ -5,8 +5,8 @@ data:extend({
 		name = "basic-electronic-components",
 		enabled = "true",
 		ingredients = {
-			{"copper-cable", 1},
-      		{"coal", 1},
+			{"copper-cable", 2},
+      		{"coal", 2},
 		},
 		result = "basic-electronic-components"
 	},
@@ -15,7 +15,7 @@ data:extend({
 		name = "electronic-components",
 		enabled = "true",
 		ingredients = {
-			{"copper-cable", 1},
+			{"copper-cable", 3},
 			{"plastic-bar", 1},
 		},
 		result = "electronic-components"
@@ -26,7 +26,7 @@ data:extend({
 		enabled = "true",
 		ingredients = {
 			{"wood", 1},
-			{"copper-cable", 2},
+			{"copper-cable", 5},
 		},
 		result = "basic-circuit-board"
 	},
@@ -44,11 +44,9 @@ getRecipe("red-wire")["ingredients"] = {
 }
 
 getRecipe("electronic-circuit")["ingredients"] = {
-	{ "basic-circuit-board", 20 },
-	{ "basic-electronic-components", 1 },
-	{ "iron-plate", 1 },
-	{ "silver-plate", 1 },
-	{ "copper-cable", 3 },
+	{ "basic-circuit-board", 5 },
+	{ "basic-electronic-components", 20 },
+	{ "copper-cable", 5 },
 }
 
 getRecipe("advanced-circuit")["ingredients"] = {
@@ -57,6 +55,7 @@ getRecipe("advanced-circuit")["ingredients"] = {
 	{ "plastic-bar", 2 },
 	{ "gold-plate", 2 },
 	{ "nickel-plate", 2 },
+	{ "silver-plate", 1 },
 }
 
 getRecipe("processing-unit")["ingredients"] = {
@@ -145,9 +144,9 @@ getRecipe("battery")["ingredients"] = {
 -- radar
 getRecipe("radar")["ingredients"] = {
 	{ "electronic-circuit", 5},
-	{"iron-gear-wheel", 5},
-	{"iron-plate", 10},
-	{"aluminium-plate", 5},
+	{ "iron-gear-wheel", 5},
+	{ "iron-plate", 10},
+	{ "aluminium-plate", 5},
 }
 
 -- bullets and rockets
