@@ -1,12 +1,25 @@
 -- circuit boards
 data:extend({
+	{ -- tungsten
+		type = "recipe",
+		name = "tungsten-wire",
+		enabled = false,
+		energy_required = 3,
+		ingredients = {
+			{"tungsten-plate", 1}
+		},
+		results = {
+			{"tungsten-wire", 5}
+		}
+	},
 	{
 		type = "recipe",
 		name = "basic-electronic-components",
 		enabled = "true",
+		energy_required = 1.2,
 		ingredients = {
 			{"copper-cable", 2},
-      		{"coal", 2},
+			{"coal", 2},
 		},
 		result = "basic-electronic-components"
 	},
@@ -14,6 +27,7 @@ data:extend({
 		type = "recipe",
 		name = "electronic-components",
 		enabled = "true",
+		energy_required = 1.3,
 		ingredients = {
 			{"copper-cable", 3},
 			{"plastic-bar", 1},
@@ -24,6 +38,7 @@ data:extend({
 		type = "recipe",
 		name = "basic-circuit-board",
 		enabled = "true",
+		energy_required = 1.8,
 		ingredients = {
 			{"wood", 1},
 			{"copper-cable", 5},

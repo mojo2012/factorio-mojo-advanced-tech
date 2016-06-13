@@ -2,6 +2,15 @@
 data:extend({
 	{
 		type = "item",
+		name = "tungsten-wire",
+		icon = "__mojo-advanced-tech__/graphics/icons/tungsten-wire.png",
+		flags = {"goes-to-main-inventory"},
+		subgroup = "intermediate-product",
+		order = "c-a-i[tungsten-wire]",
+		stack_size = 200
+	},
+	{
+		type = "item",
 		name = "basic-electronic-components",
 		icon = "__mojo-advanced-tech__/graphics/icons/basic-electronic-components.png",
 		flags = {"goes-to-main-inventory"},
