@@ -165,8 +165,13 @@ getRecipe("radar")["ingredients"] = {
 }
 
 -- bullets and rockets
-getRecipe("piercing-bullet-magazine")["ingredients"] = {
+getRecipe("piercing-rounds-magazine")["ingredients"] = {
 	{"copper-plate", 5},
+	{"lead-plate", 1},
+}
+
+getRecipe("piercing-shotgun-shell")["ingredients"] = {
+	{"copper-plate", 2},
 	{"lead-plate", 1},
 }
 

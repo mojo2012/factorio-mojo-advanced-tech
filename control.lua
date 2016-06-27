@@ -1,4 +1,3 @@
-require "defines"
 require "stdlib.log.logger"
 require "stdlib.event.event"
 
