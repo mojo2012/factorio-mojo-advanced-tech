@@ -4,6 +4,6 @@
   "title": "mojo-advanced-tech",
   "author": "mojo2012",
   "homepage": "",
-  "dependencies": ["base >= 0.12.33", "mojo-resource-processing >= 0.2.0"],
+  "dependencies": ["base >= 0.12.33", "mojo-resource-processing >= 0.3.0"],
   "description": ""
 }
