@@ -3,7 +3,7 @@ This mod depends on mojo-resource-processing. It makes use of the added ores and
 
 ## Dependecies
 * Factorio >= 0.12.33
-* mojo-resource-processing >= 0.2.0
+* mojo-resource-processing >= 0.3.0
 
 # Current state
 Mostly recipe changed and new electronic components as basis for circuit boards.
