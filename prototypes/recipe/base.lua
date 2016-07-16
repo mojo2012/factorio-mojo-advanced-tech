@@ -60,13 +60,13 @@ getRecipe("red-wire")["ingredients"] = {
 
 getRecipe("electronic-circuit")["ingredients"] = {
 	{ "basic-circuit-board", 5 },
-	{ "basic-electronic-components", 20 },
+	{ "basic-electronic-components", 10 },
 	{ "copper-cable", 5 },
 }
 
 getRecipe("advanced-circuit")["ingredients"] = {
 	{ "electronic-circuit", 2 },
-	{ "basic-electronic-components", 20 },
+	{ "basic-electronic-components", 12 },
 	{ "plastic-bar", 2 },
 	{ "gold-plate", 2 },
 	{ "nickel-plate", 2 },
@@ -165,8 +165,13 @@ getRecipe("radar")["ingredients"] = {
 }
 
 -- bullets and rockets
-getRecipe("piercing-bullet-magazine")["ingredients"] = {
+getRecipe("piercing-rounds-magazine")["ingredients"] = {
 	{"copper-plate", 5},
+	{"lead-plate", 1},
+}
+
+getRecipe("piercing-shotgun-shell")["ingredients"] = {
+	{"copper-plate", 2},
 	{"lead-plate", 1},
 }
 
