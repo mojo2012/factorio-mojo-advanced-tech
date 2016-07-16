@@ -16,7 +16,7 @@ data:extend({
 		type = "recipe",
 		name = "basic-electronic-components",
 		enabled = "true",
-		energy_required = 1.2,
+		energy_required = 0.5,
 		ingredients = {
 			{"copper-cable", 2},
 			{"coal", 2},
@@ -59,9 +59,9 @@ getRecipe("red-wire")["ingredients"] = {
 }
 
 getRecipe("electronic-circuit")["ingredients"] = {
-	{ "basic-circuit-board", 5 },
-	{ "basic-electronic-components", 10 },
-	{ "copper-cable", 5 },
+	{ "basic-circuit-board", 2 },
+	{ "basic-electronic-components", 3 },
+	{ "copper-cable", 2 },
 }
 
 getRecipe("advanced-circuit")["ingredients"] = {
