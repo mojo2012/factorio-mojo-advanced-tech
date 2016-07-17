@@ -1,0 +1,2 @@
+ideas:
+* turret modules (eg. extended range)
