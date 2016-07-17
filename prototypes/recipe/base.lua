@@ -59,9 +59,9 @@ getRecipe("red-wire")["ingredients"] = {
 }
 
 getRecipe("electronic-circuit")["ingredients"] = {
-	{ "basic-circuit-board", 2 },
+	{ "basic-circuit-board", 1 },
 	{ "basic-electronic-components", 3 },
-	{ "copper-cable", 2 },
+	{ "copper-cable", 1 },
 }
 
 getRecipe("advanced-circuit")["ingredients"] = {
@@ -83,7 +83,7 @@ getRecipe("processing-unit")["ingredients"] = {
 
 -- furnice
 getRecipe("electric-furnace")["ingredients"] = {
-	{"steel-plate", 15},
+	{"steel-plate", 10},
 	{"advanced-circuit", 5},
 	{"stone-brick", 10},
 	{"titanium-plate", 3},
@@ -93,16 +93,14 @@ getRecipe("electric-furnace")["ingredients"] = {
 getRecipe("assembling-machine-3")["ingredients"] = {
 	{"speed-module", 4},
 	{"assembling-machine-2", 2},
-	{"glass-plate", 10},
+	{"glass-plate", 5},
 }
 
 -- lighing
 getRecipe("small-lamp")["ingredients"] = {
-	{"electronic-circuit", 1},
-	{"iron-stick", 3},
 	{"iron-plate", 1},
-	{"cut-glass", 2},
-	{"tungsten-wire", 2},
+	{"cut-glass", 1},
+	{"tungsten-wire", 1},
 }
 
 getRecipe("rail-signal")["ingredients"] = {
