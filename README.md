@@ -1,12 +1,10 @@
-# Factorio mod: mojo-advanced-tedch
-This mod depends on mojo-resource-processing. It makes use of the added ores and metal products. It changed a lot of recipes to use the new materials, but tries to stay true to the real vanilla experience.
+# Factorio mod: mojo-exploration
+This mod spawns ancient alien temples and buildings across the map. Hidden in those ruins you can find powerful artifacts.
 
 ## Dependecies
-* Factorio >= 0.12.33
-* mojo-resource-processing >= 0.3.0
+* Factorio >= 0.13
 
 # Current state
-Mostly recipe changed and new electronic components as basis for circuit boards.
 
 # Plan
 * Add new devices and machines.

@@ -16,7 +16,7 @@ data:extend({
 		type = "recipe",
 		name = "basic-electronic-components",
 		enabled = "true",
-		energy_required = 0.5,
+		energy_required = 1.2,
 		ingredients = {
 			{"copper-cable", 2},
 			{"coal", 2},
@@ -59,14 +59,14 @@ getRecipe("red-wire")["ingredients"] = {
 }
 
 getRecipe("electronic-circuit")["ingredients"] = {
-	{ "basic-circuit-board", 1 },
-	{ "basic-electronic-components", 3 },
-	{ "copper-cable", 1 },
+	{ "basic-circuit-board", 5 },
+	{ "basic-electronic-components", 20 },
+	{ "copper-cable", 5 },
 }
 
 getRecipe("advanced-circuit")["ingredients"] = {
 	{ "electronic-circuit", 2 },
-	{ "basic-electronic-components", 12 },
+	{ "basic-electronic-components", 20 },
 	{ "plastic-bar", 2 },
 	{ "gold-plate", 2 },
 	{ "nickel-plate", 2 },
@@ -83,7 +83,7 @@ getRecipe("processing-unit")["ingredients"] = {
 
 -- furnice
 getRecipe("electric-furnace")["ingredients"] = {
-	{"steel-plate", 10},
+	{"steel-plate", 15},
 	{"advanced-circuit", 5},
 	{"stone-brick", 10},
 	{"titanium-plate", 3},
@@ -93,14 +93,16 @@ getRecipe("electric-furnace")["ingredients"] = {
 getRecipe("assembling-machine-3")["ingredients"] = {
 	{"speed-module", 4},
 	{"assembling-machine-2", 2},
-	{"glass-plate", 5},
+	{"glass-plate", 10},
 }
 
 -- lighing
 getRecipe("small-lamp")["ingredients"] = {
+	{"electronic-circuit", 1},
+	{"iron-stick", 3},
 	{"iron-plate", 1},
-	{"cut-glass", 1},
-	{"tungsten-wire", 1},
+	{"cut-glass", 2},
+	{"tungsten-wire", 2},
 }
 
 getRecipe("rail-signal")["ingredients"] = {

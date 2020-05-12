@@ -1,0 +1,3 @@
+[submodule "deps/Factorio-Stdlib"]
+	path = deps/Factorio-Stdlib
+	url = https://github.com/mojo2012/Factorio-Stdlib.git
